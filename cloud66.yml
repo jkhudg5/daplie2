@@ -1,0 +1,33 @@
+application:
+  name: daplie-website
+  domain: daplie.com
+  ssl: true
+  force_ssl: true
+  redirect_www: true
+
+services:
+  web:
+    # Let Cloud66 find Dockerfile automatically
+
+network:
+  ports:
+    - port: 80
+      protocol: http
+      public: true
+      redirect_to_ssl: true
+    - port: 443
+      protocol: https
+      public: true
+      ssl_certificate: auto
+    - port: 3000
+      protocol: http
+      public: false
+      internal: true
+
+nginx:
+  server_names:
+    - daplie.com
+    - www.daplie.com
+  ssl_certificate: auto
+  force_ssl: true
+  redirect_www: true 
