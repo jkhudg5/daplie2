@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Robot body -->
+  <g transform="translate(50, 30)">
+    <!-- Cloud -->
+    <path d="M80 40C80 17.909 62.091 0 40 0S0 17.909 0 40c0 11.636 5.455 22.727 14.545 30C5.455 77.273 0 88.364 0 100c0 22.091 17.909 40 40 40s40-17.909 40-40c0-11.636-5.455-22.727-14.545-30C74.545 62.727 80 51.636 80 40z" fill="white"/>
+    
+    <!-- Robot -->
+    <g transform="translate(-10, 50)">
+      <!-- Body -->
+      <rect x="25" y="20" width="50" height="60" rx="5" fill="white"/>
+      
+      <!-- Head -->
+      <rect x="30" y="0" width="40" height="40" rx="5" fill="white"/>
+      
+      <!-- Eye -->
+      <circle cx="50" cy="20" r="5" fill="#1E40AF"/>
+      
+      <!-- Antenna -->
+      <line x1="50" y1="0" x2="50" y2="-10" stroke="white" stroke-width="3"/>
+      <circle cx="50" cy="-12" r="3" fill="white"/>
+      
+      <!-- Arms -->
+      <rect x="10" y="30" width="15" height="30" rx="5" fill="white"/>
+      <rect x="75" y="30" width="15" height="30" rx="5" fill="white"/>
+      
+      <!-- Legs -->
+      <rect x="30" y="80" width="15" height="20" rx="5" fill="white"/>
+      <rect x="55" y="80" width="15" height="20" rx="5" fill="white"/>
+    </g>
+  </g>
+</svg> 
