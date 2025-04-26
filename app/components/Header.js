@@ -26,6 +26,9 @@ export default function Header() {
             <Link href="/angebot" className="text-white hover:text-blue-100 transition duration-200">
               Angebot
             </Link>
+            <Link href="/linkbuilding" className="text-white hover:text-blue-100 transition duration-200">
+              Linkbuilding
+            </Link>
             <Link href="/software" className="text-white hover:text-blue-100 transition duration-200">
               Software
             </Link>
